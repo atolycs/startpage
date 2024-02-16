@@ -4,17 +4,20 @@
   "description": "Atolycs's Personal Startpage",
   "scripts": {
     "lint:html": "eslint ./**/*.html",
-    "fix:html": "eslint ./**/*.html --fix"
+    "fix:html": "eslint ./**/*.html --fix",
+    "lint:css": "stylelint ./**/*.css",
+    "fix:css": "stylelint ./**/*.css --fix"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@html-eslint/eslint-plugin": "^0.23.1",
     "@html-eslint/parser": "^0.23.0",
     "eslint": "^8.56.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-html": "^8.0.0",
-    "prettier": "^3.2.5"
+    "prettier": "^3.2.5",
+    "stylelint": "^16.2.1"
   }
 }
